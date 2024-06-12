@@ -13,7 +13,7 @@
 edition = "2021"
 rust-version = "1.65.0"
 name = "backtrace"
-version = "0.3.72"
+version = "0.3.73"
 authors = ["The Rust Project Developers"]
 build = "build.rs"
 exclude = ["/ci/"]
@@ -148,7 +148,7 @@ version = "0.7.0"
 default-features = false
 
 [target."cfg(not(all(windows, target_env = \"msvc\", not(target_vendor = \"uwp\"))))".dependencies.object]
-version = "0.35.0"
+version = "0.36.0"
 features = [
     "read_core",
     "elf",
